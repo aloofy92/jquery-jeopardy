@@ -1,0 +1,279 @@
+
+h1{
+    font-family: papyrus;
+    text-align: center;
+    color: gold;
+}
+
+#grid-item1 {
+    grid-area: grid-item1;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item2 {
+    grid-area: grid-item2;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item3 {
+    grid-area: grid-item3;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item4 {
+    grid-area: grid-item4;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item5 {
+    grid-area: grid-item5;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item6 {
+    grid-area: grid-item6;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item7 {
+    grid-area: grid-item7;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item8 {
+    grid-area: grid-item8;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item9 {
+    grid-area: grid-item9;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item10 {
+    grid-area: grid-item10;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item11 {
+    grid-area: grid-item11;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item12 {
+    grid-area: grid-item12;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item13 {
+    grid-area: grid-item13;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item14 {
+    grid-area: grid-item14;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item15 {
+    grid-area: grid-item15;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item16 {
+    grid-area: grid-item16;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item17 {
+    grid-area: grid-item17;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+#grid-item18 {
+    grid-area: grid-item18;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+#grid-item19 {
+    grid-area: grid-item19;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+#grid-item20 {
+    grid-area: grid-item20;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item21 {
+    grid-area: grid-item20;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item22 {
+    grid-area: grid-item20;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item23 {
+    grid-area: grid-item20;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item24 {
+    grid-area: grid-item20;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+#grid-item25 {
+    grid-area: grid-item20;
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+}
+
+.container {
+    height: 350px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "grid-item1 grid-item6 grid-item11 grid-item16 grid-item21"
+    "grid-item2 grid-item7 grid-item12 grid-item17 grid-item22"
+    "grid-item3 grid-item8 grid-item13 grid-item18 grid-item23"
+    "grid-item4 grid-item9 grid-item14 grid-item19 grid-item24"
+    "grid-item5 grid-item10 grid-item15 grid-item20 grid-item25"
+  }
+
+  #grid-item1{
+    border: 1px solid black;
+    margin:10px;
+    padding: 10px;
+    background-color: blue;
+    color: gold;
+    
+    
+}
+
+div{
+
+    border: 1px solid black;
+    margin:10px;
+    background-color: rgb(3, 46, 137);
+
+
+}
+
+#answers {
+    font-family: papyrus;
+    color: gold;
+    text-align: center;
+    height: 25px;
+}
+
+#question {
+    font-family: papyrus;
+    color: gold;
+    text-align: center;
+    height: 75px;
+    
+}
+
+
+
